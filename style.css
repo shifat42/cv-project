@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: o;
+}
+body{
+    background-color: rgb(228, 216, 201);
+}
+.container{
+  max-width: 1000px;
+  background-color: rgb(195, 211, 206);
+  margin: 0 auto;
+  padding: 20px;
+}
+header{
+    
+}
+.profile-photo{
+  width: 100px;
+  height: 120px;
+  border: 1px solid white;
+  border-radius: 50%;
+  float: left;
+}
+.heading-bio{
+    float: left;
+    padding:30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(66, 62, 37);
+}
+.heading-link{
+    float: right;
+    padding: 30px;
+}
+.heading-link a{
+text-decoration: none;
+color: rgb(141, 69, 17);
+font-weight: bold;
+}
+.heading-link a:hover{
+text-decoration: underline;
+color: blueviolet;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: 3px solid red;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*----------------------
+personal section start
+------------------------*/
+#personal-section{
+
+}
+.content{
+
+}
+.left-div{
+float: left;
+width: 30%;
+}
+.right-div{
+float: left;
+width: 70%;
+}
+.common-hr{
+    border: 1px solid red;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*----------------------
+education section start
+------------------------*/
+.edu-templete-left{
+float: left;
+width: 50%;
+}
+.edu-templete-right{
+float: right;
+width: 50%;
+}
+/*----------------------
+footer section start
+------------------------*/
+.bottom-container{
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+.bottom-container a{
+color: white;
+text-decoration: none;
+margin: 20px;
+}
+.bottom-container p{
+  color: white;
+  margin-top: 20px;  
+}
+.bottom-container a:hover{
+text-decoration: underline;
+color: burlywood;
+}
